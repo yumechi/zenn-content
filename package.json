@@ -1,0 +1,11 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/yumechi/zenn-content.git",
+  "author": "yumechi <yumechi0525@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zenn-cli": "^0.1.59"
+  }
+}
