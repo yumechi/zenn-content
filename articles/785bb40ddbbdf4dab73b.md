@@ -26,9 +26,11 @@ object Main extends App {
 
 問題については [yukicoder](https://yukicoder.me/) を参照しています。
 
+Scala のバージョンは 2.13 系を使っています（パッチバージョンは忘れました）。
+
 ## 1つの数値の入力
 
-いわゆる N が一つだけ与えられるケースです。
+いわゆる N が 1 つだけ与えられるケースです。
 
 ```scala
 val n = sc.nextInt
@@ -41,7 +43,7 @@ https://yukicoder.me/problems/no/1003
 
 ## 2つの数字の入力
 
-N, K が1列で与えられるケースです。別々の変数でとりたい場合は下記です。
+N, K が 1 列で与えられるケースです。別々の変数でとりたい場合は下記です。
 
 ```scala
 val n = sc.nextInt
@@ -94,9 +96,9 @@ val w = sc.nextInt
 val al = Array.fill(h, w)(sc.nextInt)
 ```
 
-Scala のドキュメントで確認できますが、5次元配列までは fill を活用して作れるようです（5次元配列なんて使う日が来るんだろうか）
+Scala のドキュメントで確認できますが、5 次元配列までは fill を活用して作れるようです（5 次元配列なんて使う日が来るんだろうか）
 
-https://www.scala-lang.org/api/current/scala/Array$.html#fill[T](n1:Int,n2:Int)(elem:=%3ET)(implicitevidence$13:scala.reflect.ClassTag[T]):Array[Array[T]]
+`https://www.scala-lang.org/api/current/scala/Array$.html#fill[T](n1:Int,n2:Int)(elem:=%3ET)(implicitevidence$13:scala.reflect.ClassTag[T]):Array[Array[T]]`
 
 例えばこの問題
 
