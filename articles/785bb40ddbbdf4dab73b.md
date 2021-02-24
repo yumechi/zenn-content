@@ -3,7 +3,7 @@ title: "Scalaで競技プログラミングの入出力メモ"
 emoji: "🎃"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["scala", "競技プログラミング"]
-published: false
+published: true
 ---
 
 最近、息抜きがてら Scala を書いてみようということで書いているのですが、さらに息抜きで競技プログラミングをたしなみながらコードを書いています。
