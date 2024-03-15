@@ -54,8 +54,7 @@ tibdex/github-app-token で指定していたような使い方とほぼ変わ�
 
 - [【R&D DevOps通信】Poetryでプライベートパッケージを扱う(GitHub, AWS CodeArtifact, GCP Artifact Registry) - Sansan Tech Blog](https://buildersbox.corp-sansan.com/entry/2022/08/22/110000)
 - [GitHub Apps のトークンを使ってプライベートリポジトリにアクセスする](https://zenn.dev/farstep/articles/32751d92dd1452)
-
-
+- [Poetryでプライベートリポジトリからインストールする3つの方法 - Sweet Escape](https://www.keisuke69.net/entry/2021/01/10/003548)
 
 ## ほかの方法
 
