@@ -21,6 +21,7 @@
             "rulePaths": [
                 "./prh.yaml"
             ]
-        }
+        },
+        "no-mix-dearu-desumasu": true
     }
 }
