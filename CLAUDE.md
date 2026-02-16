@@ -23,10 +23,11 @@ pnpm run fix:articles   # 自動修正
 
 ### 有効なルール
 
+- preset-japanese: 日本語基本ルール（max-ten, no-mix-dearu-desumasu 等）
 - preset-ja-technical-writing: 技術文書向けルール
 - preset-ja-spacing: スペース関連ルール
+- preset-ai-writing: AI ライティング向けルール
 - spellcheck-tech-word: 技術用語スペルチェック
-- no-mix-dearu-desumasu: ですます/である調の混在チェック
 - prh: 表記揺れチェック（prh.yaml）
 
 ## ディレクトリ構造
