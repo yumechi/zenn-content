@@ -1,10 +1,14 @@
 {
     "filters": {},
     "rules": {
-        "preset-ja-technical-writing": {
+        "preset-japanese": {
             "max-ten": {
                 "max": 3
             },
+            "no-mix-dearu-desumasu": true
+        },
+        "preset-ja-technical-writing": {
+            "max-ten": false,
             "no-exclamation-question-mark": {
                 "allowFullWidthExclamation": true,
                 "allowFullWidthQuestion": true
@@ -16,12 +20,12 @@
             },
             "ja-space-after-question": false
         },
+        "preset-ai-writing": true,
         "spellcheck-tech-word": true,
         "prh": {
             "rulePaths": [
                 "./prh.yaml"
             ]
-        },
-        "no-mix-dearu-desumasu": true
+        }
     }
 }
